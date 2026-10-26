@@ -1,4 +1,4 @@
-.secao-metas{
+.secao-metas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,35 +6,68 @@
     width: 100%;
 }
 
-.meta{
+.meta {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-
     border: 2px solid #333;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-img{
+img {
     width: 200px;
     padding-left: 15px;
     padding-right: 15px;
     height: 200px;
 }
-.meta:hover{
-    transition: .5s;
-    transform: scale(1.5);
+
+.meta:hover {
+    transition: 0.9s;
+    transform: scale(1.1);
 }
-h2{
+
+h2 {
     width: 400px;
 }
 
-p{
+p {
     width: 400px;
 }
+
 
 footer {
-""
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #555;
+    margin-top: 40px;
+}
+
+@media (max-width: 1000px){
+    .meta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 50%;
+    }
 }
