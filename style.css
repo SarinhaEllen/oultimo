@@ -6,6 +6,7 @@
 }
 
 body{
+    background-image: url();
     text-align: center;
     width: 100%;
     display: flex;
@@ -61,12 +62,12 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0px;
-    position: fixed;
     bottom: 0px;
     width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top:40px;
 }
 
 h1 {
