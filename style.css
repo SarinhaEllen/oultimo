@@ -1,12 +1,12 @@
 :root{
-    --cor-principal:#D96868;
-    --cor-secundaria:#F2F2F2;
-    --cor-terciaria:#91AE6E;
-    --cor-detalhe:#689D4B;
+    --cor-principal:#60241E;
+    --cor-secundaria:#95271D;
+    --cor-terciaria:#B34A44;
+    --cor-detalhe:#E77B49;
 }
 
 body{
-    background-image: url();
+    background-image: url(https://st2.depositphotos.com/1605581/6365/i/950/depositphotos_63650479-stock-illustration-grunge-red-texture-background.jpg);
     text-align: center;
     width: 100%;
     display: flex;
@@ -31,7 +31,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-    border: 2px solid #333;
+    border: 2px solid #460000;
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -58,7 +58,7 @@ p {
 
 
 footer {
-    background-color: #333;
+    background-color: #6b0000;
     color: white;
     text-align: center;
     padding: 20px 0px;
@@ -90,5 +90,19 @@ h1 {
         flex-direction: row;
         width: 50%;
     }
+}
+
+.secao-perfil, .perfil, .texto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    flex-direction: row;
+}
+
+.texto-perfil{
+    flex-direction: column;
 }
 
